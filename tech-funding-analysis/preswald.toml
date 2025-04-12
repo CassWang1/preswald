@@ -1,0 +1,20 @@
+[project]
+title = "Tech Funding Analysis"
+version = "0.1.0"
+port = 8501
+slug = "tech-funding-analysis"
+entrypoint = "hello.py"
+
+[branding]
+name = "Tech Funding Insights"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#1E88E5"
+
+[data.fundings_data]
+type = "csv"
+path = "data/tech_fundings.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
